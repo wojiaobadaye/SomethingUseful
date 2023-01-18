@@ -7,3 +7,4 @@ obj3 = re.compile(r'◎译　　名(?P<movie_name>.*?)/.*?◎年　　代(?P<yea
 
 res = obj3.search(a)
 print(res.group('movie_name'))
+
