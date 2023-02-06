@@ -6,7 +6,9 @@
 import scrapy
 
 
-class IntershipspiderItem(scrapy.Item):
+class jobItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+    job_name = scrapy.Field()
+    work_address = scrapy.Field()
+    job_content = scrapy.Field()
